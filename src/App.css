@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  ::selection{
+    background: darkorange;
+    color: #345876 ;
+}
+  
+::-webkit-scrollbar{
+  width: .2rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background: black;
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+
+  .home,
+  .About,
+  .products,
+  .sign-up {
+    min-height: 89.3vh;
+    display: flex;
+    font-size: 3rem;
+  }
+  
+  .About {
+    background: url(https://welldoneby.com/blog/wp-content/uploads/2020/04/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    margin: -8px;
+  }
+  
+  .products {
+    background: url(https://www.bypeople.com/wp-content/uploads/2018/12/sky-component-for-react-2.gif);
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    
+  }
+  
+  .sign-up {
+    background: url(https://therichpost.com/wp-content/uploads/2021/04/Reactjs-Animated-Login-Registration-Forms.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+  }
+
+  .sign-up {
+    text-align: center;
+    justify-content: center;
+    color: black;
+  }
